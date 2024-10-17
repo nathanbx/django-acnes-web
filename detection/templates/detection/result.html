@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kết quả nhận diện</title>
+    <style>
+        img {
+            max-width: 100%;  
+            height: auto;     
+        }
+    </style>
+</head>
+<body>
+    <h2>Kết quả: {{ detected_acnes }} mụn được phát hiện</h2>
+
+    <!-- Display Processed Image -->
+    <img src="{{ image_url }}" alt="Detected Image">
+
+    <a href="/">Tải ảnh khác</a>
+</body>
+</html>

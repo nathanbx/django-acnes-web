@@ -1,0 +1,10 @@
+django
+torch
+numpy
+ultralytics
+opencv-python-headless==4.10.0.84
+Pillow
+scipy==1.11.2
+filterpy==1.4.5
+matplotlib==3.8.0
+huggingface-hub
